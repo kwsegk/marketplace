@@ -53,7 +53,7 @@ Web-приложение на Spring MVC для торговой площадк�
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/YOUR_USERNAME/marketplace.git
+git clone https://github.com/kwsegk/marketplace.git
 cd marketplace
 ```
 
@@ -84,7 +84,7 @@ mvn clean install
 
 6. Разверните WAR файл на Tomcat:
 - Скопируйте файл из `target/marketplace.war` в папку `webapps` вашего Tomcat
-- Или настройте деплой через IDE (IntelliJ IDEA)
+- Или настройте deploy через IDE (IntelliJ IDEA)
 
 7. Запустите приложение:
 ```

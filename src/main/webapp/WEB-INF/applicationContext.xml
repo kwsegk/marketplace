@@ -18,7 +18,6 @@
     <mvc:annotation-driven/>
     <tx:annotation-driven transaction-manager="transactionManager"/>
 
-    <!-- Load database properties from external file -->
     <context:property-placeholder location="classpath:db.properties"/>
 
     <bean id="dataSource" class="com.zaxxer.hikari.HikariDataSource" destroy-method="close">
